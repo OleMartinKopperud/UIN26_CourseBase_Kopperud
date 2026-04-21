@@ -44,10 +44,7 @@ function App() {
       Denne useEffect-en kjører kun når cart endres,
       fordi cart er eneste dependency.
     */
-		const total = cart.reduce(
-			(sum, item) => sum + item.price * item.quantity,
-			0,
-		)
+		const total = cart.reduce((sum, item) => sum + item.price * item.quantity, 0)
 		setTotalSum(total)
 	}, [cart])
 

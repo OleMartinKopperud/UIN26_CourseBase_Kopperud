@@ -38,11 +38,7 @@ export default function Cart({ isOpen, cart, setCart, totalSum }) {
                     CartItem får produktet p som prop.
                     key er nødvendig for React når man renderer lister.
                   */
-								<CartItem
-									key={p.prodid}
-									p={p}
-									setCart={setCart}
-								/>
+								<CartItem key={p.prodid} p={p} setCart={setCart} />
 							))
 						)}
 					</tbody>
