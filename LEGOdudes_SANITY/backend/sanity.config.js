@@ -7,7 +7,7 @@ export default defineConfig({
   name: 'default',
   title: 'LEGOdudes2026',
 
-  projectId: 's1yi760h',
+  projectId: '9k9wdwgt',
   dataset: 'production',
 
   plugins: [structureTool(), visionTool()],
